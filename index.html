@@ -9,8 +9,6 @@
   	<!--Bootstrap-->	
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 	<!--Script-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   	<script src="js/jquery.js"></script>
   	<script src="js/bootstrap.min.js"></script>
 	<!--Css-->
@@ -26,7 +24,7 @@
 <body>
 	<header>
 		<div class="fondo">
-			<div class="container clearfix">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-3 col-sm-3">
 						<p><b>MI PORTAFOLIO</b></p>
@@ -40,109 +38,83 @@
 								<li><a href="#contacto">CONTÁCTAME</a></li>
 							</ul>						
 						</nav>
-					</div>	
-					<div class="col-md-9 col-sm-9 visible-xs text-right">
-						<div class="dropdown">					
-							<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							   	<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-						 	</button>
-						  	<ul class="dropdown-menu" aria-labelledby="dLabel">
-							    <li><a href="#yo">SOBRE MÍ</a></li>
-								<li><a href="#servicios">SERVICIOS</a></li>
-								<li><a href="#trabajos">MIS TRABAJOS</a></li>
-								<li><a href="#contacto">CONTÁCTAME</a></li>
-						  	</ul>
-						</div>
-					</div>															
+						<nav class="visible-xs text-right">
+							<div class="dropdown">					
+								<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								   	<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+							 	</button>
+							  	<ul class="dropdown-menu text-right" aria-labelledby="dLabel">
+								    <li><a href="#yo">SOBRE MÍ</a></li>
+									<li><a href="#servicios">SERVICIOS</a></li>
+									<li><a href="#trabajos">MIS TRABAJOS</a></li>
+									<li><a href="#contacto">CONTÁCTAME</a></li>
+							  	</ul>
+							</div>
+						</nav>	
+					</div>																			
 				</div>					
-			</div>		
-			<div class="frase text-center col-md-8 col-md-offset-2 clearfix">
-				<h1 class=" option animated  pulse text-center">HOLA, MI NOMBRE ES ROCIO <br> SOY CODER DE LABORATORIA.</h1>
-				<hr class="rojo">
-				<small>Estás interesado en desarrollar un sitio web o necesitas una frontend developer, yo te puedo ayyudar con los diferentes servicios que brindo.</small>
-				<div class="boton-rojo">
-					<button type="option animated pulse button text-center" class="btn btn-warning">CONOCE MÁS</button>
+			</div> 
+			<div class="container">	
+				<div class="row">		
+					<div class="col-md-8 col-md-offset-2 frase text-center clearfix">
+						<h1 class=" option animated  pulse text-center">HOLA, MI NOMBRE ES ROCIO <br> SOY CODER DE LABORATORIA.</h1>
+						<hr class="rojo">
+						<small>Estás interesado en desarrollar un sitio web o necesitas una frontend developer, yo te puedo ayyudar con los diferentes servicios que brindo.</small>
+						<div class="boton-rojo">
+							<button type="button" class="btn btn-default option animated pulse text-center"><b>CONOCE MÁS</b></button>	
+						</div>
+					</div>
 				</div>
-			</div>
-			
-		</div>
-		<div class="clarito container clearfix">
-				<div class="row">
-					<div class="col-md-3 col-sm-3">
-						<p><b>MI PORTAFOLIO</b></p>
-					</div>
-					<div>
-						<nav class="col-md-9 col-sm-9  hidden-xs ">
-							<ul class="list-inline text-right text-unstyle">
-								<li><a href="#yo">SOBRE MÍ</a></li>
-								<li><a href="#servicios">SERVICIOS</a></li>
-								<li><a href="#trabajos">MIS TRABAJOS</a></li>
-								<li><a href="#contacto">CONTÁCTAME</a></li>
-							</ul>						
-						</nav>
-					</div>	
-					<div class="col-md-9 col-sm-9 visible-xs text-right">
-						<div class="dropdown">					
-							<button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							   	<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-						 	</button>
-						  	<ul class="dropdown-menu" aria-labelledby="dLabel">
-							    <li><a href="#yo">SOBRE MÍ</a></li>
-								<li><a href="#servicios">SERVICIOS</a></li>
-								<li><a href="#trabajos">MIS TRABAJOS</a></li>
-								<li><a href="#contacto">CONTÁCTAME</a></li>
-						  	</ul>
-						</div>
-					</div>															
-				</div>					
-			</div>
+			</div>								
 		<div class="container-mi">
-			<div class="row">
-				<div id="yo" class="header-banner col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
-					<h3 class="text-center">SOBRE MÍ</h3>
-					<hr class="blanco">
-					<small class="text-center">Soy egresada de Laboratoria, salí con el título de Frontend deloper Jr. desarrollo páginas web en HTML/ CSS/ Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</small>					
-				</div>				
+			<div class="container">	
+				<div class="row">
+					<div class="header-banner col-md-6 col-md-offset-3 col-sm-12 col-xs-12" id="yo" >
+						<h3 class="text-center">SOBRE MÍ</h3>
+						<hr class="blanco">
+						<small class="text-center">Soy egresada de Laboratoria, salí con el título de Frontend deloper Jr. desarrollo páginas web en HTML/ CSS/ Javascript. Soy creativa, inteligente y alegre cosa que transmito en cada una de las webs que desarrollo.</small>					
+					</div>
+				</div>
 			</div>						
-		</div>		
+		</div>								
 	</header>
 	<!---------------- End header---->
 	<section class="servicios">
-		<div id="servicios" class="servicios-section clearfix">
+		<div id="servicios" class="servicios-section">
 			<h3 class="text-center"> SERVICIOS</h3>
 			<hr class="rojo text-center">
 			<div class="container-icons">
-				<div class="row text-center">
-					<div class="col-md-2 col-sm-2 hidden-xs"></div>
-					<div class="col-md-2 col-sm-2 col-xs-12">
-						<span class=" rojo glyphicon glyphicon glyphicon-eye-open" aria-hidden="true"></span>
-						<h5><b>Desarrollo de plantillas</b></h5>
-						<small>Desarrollo plantillas a medida con HTML5/CSS3/JS</small>				
+				<div class="container">	
+					<div class="row">
+						<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+							<span class=" rojo glyphicon glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+							<h5><b>Desarrollo de plantillas</b></h5>
+							<small>Desarrollo plantillas a medida con HTML5/CSS3/JS</small>				
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+							<span class=" rojo glyphicon glyphicon-send" aria-hidden="true"></span>
+							<h5><b>Campañas de Mailing</b></h5>
+							<small>Desarrollo de plantillas para campañas por correo </small>					
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+							<span class=" rojo glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+							<h5><b>Full Websites</b></h5>
+							<small>Desarrollo websites completos y dinámicos.</small>					
+						</div>
+						<div class="col-md-3 col-sm-3 col-xs-12 text-center">
+							<span class=" rojo glyphicon glyphicon-heart" aria-hidden="true"></span>
+							<h5><b>Aplicaciones Android</b></h5>
+							<small>Desarrollo aplicaciones Android listas para subir a la tienda.</small>					
+						</div>	
 					</div>
-					<div class="col-md-2 col-sm-2 col-xs-12">
-						<span class=" rojo glyphicon glyphicon-send" aria-hidden="true"></span>
-						<h5><b>Campañas de Mailing</b></h5>
-						<small>Desarrollo de plantillas para campañas por correo </small>					
-					</div>
-					<div class="col-md-2 col-sm-2 col-xs-12">
-						<span class=" rojo glyphicon glyphicon-list-alt" aria-hidden="true"></span>
-						<h5><b>Full Websites</b></h5>
-						<small>Desarrollo websites completos y dinámicos.</small>					
-					</div>
-					<div class="col-md-2 col-sm-2 col-xs-12">
-						<span class=" rojo glyphicon glyphicon-heart" aria-hidden="true"></span>
-						<h5><b>Aplicaciones Android</b></h5>
-						<small>Desarrollo aplicaciones Android listas para subir a la tienda.</small>					
-					</div>	
-					<div class="col-md-2 col-sm-2 hidden-xs"></div>		
 				</div>		
 			</div>
 		</div>		
 	</section>
 	<!-------- End servicios-section ---->
 	<section>
-		<div id="trabajos" class="">
-			<div class="container clearfix">
+		<div id="trabajos">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-sm-4 col-xs-12">
 						<img class="img-responsive" src="img/1.jpg" alt="#">						
@@ -177,22 +149,28 @@
 	<!-------- End trabajos-section ---->
 	<section class="contacto-section">
 		<div id="contacto">
+			<div class="container-contacto">
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+					<div class="contact-text col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
 						<h3 class="text-center">CONTÁCTAME</h3>
-						<hr class="rojito">
+						<hr class="rojo">
 						<small class="text-center">¿Listo para empezar tu siguiente proyecto?¿Te gusta lo que has visto?¡Genial!, dame una llamada o envíame un correo y te responderé lo más rápido que pueda!</small>
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12">
+				</div>
+
+				<div class="row">	
+					<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
 						<p>997066688</p>						
 					</div>
-					<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="col-md-6 col-sm-6 col-xs-12 text-center">
 						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-						<p>rocioyovera@gmail.com</p>						
-					</div>					
+						<p><span class="rojito">rocioyovera@gmail.com</span></p>					
+					</div>	
 				</div>				
+				</div>
+							
 			</div>
 		</div>		
 	</section>
