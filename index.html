@@ -25,52 +25,125 @@
 </head>
 <body>
 	<header>
-	<div class="fondo">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 col-sm-3">
-					<p class="hidden-xs">MI PORTAFOLIO</p>
-				</div>	
-				<div class="text-right visible-xs">
-					<button type="button" class="btn btn-default" aria-label="Left Align">
-						<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-					</button>
-				</div>
-				<div class="col-md-9 col-sm-9">
-					<nav class="hidden-xs">
-						<ul class="list-inline text-right text-unstyle">
-							<li><a href="#yo">SOBRE MÍ</a></li>
-							<li><a href="#servicios">SERVICIOS</a></li>
-							<li><a href="#trabajos">MIS TRABAJOS</a></li>
-							<li><a href="#contacto">CONTÁCTAME</a></li>
-						</ul>						
-					</nav>
-				</div>						
-			</div>					
-		</div>				
-	</div>
-	</header>
-
-
-
-
-
-								
-											
-			<!---<div class="frase">
-				<h1 class=" option animated  pulse text-center">Obtén videos de personas reales <br> utilizando tu sitio web en 1 hora.</h1>
-			</div>				
-		</div>
-		<div class="header-banner">
+		<div class="fondo">
 			<div class="container">
 				<div class="row">
-					<div class=" text-center banner-info col-md-4 col-md-offset-2 col-sm-4 col-sm-offset-2">
-						<h3 class="text-center">PRUEBA GRATUITA</h3>
-						<small>Obtén un video gratis en 5 minutos</small>
+					<div class="col-md-3 col-sm-3">
+						<p>MI PORTAFOLIO</p>
 					</div>
-					<div class="col-md-4 text-center col-sm-4">
-						<button class="option animated bounceInLeft btn btn-primary">Pruébalo gratis</button>
-					</div>-->
+					<div class="col-md-9 col-sm-9 visible-xs">
+						<div class="dropdown text-right hidden-lg hidden-md hidden-sm ">					
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+						    	<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+						 	</button>
+						  	<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							    <li><a href="#yo">SOBRE MÍ</a></li>
+								<li><a href="#servicios">SERVICIOS</a></li>
+								<li><a href="#trabajos">MIS TRABAJOS</a></li>
+								<li><a href="#contacto">CONTÁCTAME</a></li>
+						  	</ul>
+						</div>
+					</div>
+					<div>
+						<nav class="hidden-xs">
+							<ul class="list-inline text-right text-unstyle">
+								<li><a href="#yo">SOBRE MÍ</a></li>
+								<li><a href="#servicios">SERVICIOS</a></li>
+								<li><a href="#trabajos">MIS TRABAJOS</a></li>
+								<li><a href="#contacto">CONTÁCTAME</a></li>
+							</ul>						
+						</nav>
+					</div>																
+				</div>					
+			</div>		
+			<div class="frase text-center col-md-8 col-md-offset-2">
+				<h1 class=" option animated  pulse text-center">HOLA, MI NOMBRE ES ROCIO <br> SOY CODER DE LABORATORIA.</h1>
+				<hr class="rojo">
+				<small>Estás interesado en desarrollar un sitio web o necesitas una frontend developer, yo te puedo ayyudar con los diferentes servicios que brindo.</small>
+				<button type=" option animated pulse button text-center" class="btn btn-warning">CONOCE MÁS</button>
+			</div>
+		</div>
+		<div id="yo" class="header-banner col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+			<div>
+				<h3 class="text-center">SOBRE MÍ</h3>
+				<hr class="blanco">
+				<p class="text-center">Soy egresada de Laboratoria, salí con el título de Frontend deloper Jr. desarrollo páginas web en HTML/CSS/Javascript. Soy creativa, inteligente, proactiva y alegre cosa que transmito en cada una de las webs que desarrollo.</p>
+			</div>
+		</div>		
+	</header>
+	<!---------------- End header---->
+	<section class="servicios">
+		<div id="servicios" class="servicios-section">
+			<h3 class="text-center"> SERVICIOS</h3>
+			<hr class="rojo text-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-2 hidden-xs"></div>
+					<div class="col-md-2 col-sm-2 col-xs-12">
+						<span class=" rojo glyphicon glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+						<h5>Desarrollo de plantillas</h5>
+						<p>Desarrollo plantillas a medida con HTML5/CSS3/JS</p>				
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-12">
+						<span class=" rojo glyphicon glyphicon-tags" aria-hidden="true"></span>
+						<h5>Campañas de Mailing</h5>
+						<p>Desarrollo de plantillas para campañas por correo </p>					
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-12">
+						<span class=" rojo glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+						<h5>Full Websites</h5>
+						<p>Desarrollo websites completos y dinámicos.</p>					
+					</div>
+					<div class="col-md-2 col-sm-2 col-xs-12">
+						<span class=" rojo glyphicon glyphicon-heart" aria-hidden="true"></span>
+						<h5>Aplicaciones Android</h5>
+						<p>Desarrollo aplicaciones Android listas para subir a la tienda.</p>					
+					</div>	
+					<div class="col-md-2 col-sm-2 hidden-xs"></div>		
+				</div>		
+			</div>
+		</div>		
+	</section>
+	<!-------- End servicios-section ---->
+	<section>
+		<div id="trabajos" class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/1.jpg" alt="#">						
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/2.jpg" alt="#">
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/3.jpg" alt="#">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/4.jpg" alt="#">
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/5.jpg" alt="#">
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<img class="img-responsive" src="img/6.jpg" alt="#">
+					</div>
+				</div>
+			</div>			
+		</div>
+	</section>
+	<!-------- End trabajos-section ---->
+	<section>
+		<div id="contacto">
+			
+		</div>		
+	</section>
+	<!-------- End contacto-section ---->
+
+
+
+
 
 
 </body>
