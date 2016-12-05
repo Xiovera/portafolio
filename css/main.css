@@ -1,5 +1,5 @@
 *{
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
 	color:;
 	font-family: Open+Sans;
 	
@@ -76,3 +76,19 @@ hr .blanco{
 	color: rgba(10, 2, 0, 0.75);
 }
 /*contacto*/
+hr.rojo{
+	border:1px solid red;
+	width: 40px;
+}
+.container-contacto span .rojito{
+	color: rgb(247, 78, 27);
+}
+.contact-text{
+	padding-bottom: 20px;
+	padding-top:20px;
+}
+#contacto .glyphicon{
+	font-size: 40px;
+	padding-bottom: 20px;
+	padding-top:20px;
+}
