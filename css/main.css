@@ -1,5 +1,78 @@
 *{
 	outline: 1px solid red;
-	margin:0;
-	padding: 0;
+	color:;
+	font-family: Open+Sans;
+	
 }
+.clearfix {
+  display: table;
+}
+.clearfix:before {
+  content: " ";
+  clear: both;
+}
+header{
+	background: url(../img/header.jpg) no-repeat;
+	background-size: cover;
+	color:white;
+}
+header li a{
+	color:white;
+}
+header h1{
+	padding-bottom: 70px;
+	padding-top: 200px;
+}
+hr.rojo{
+	border:1px solid red;
+	width: 40px;
+}
+#yo{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.clarito{
+	background-color:rgba(247, 78, 27, 0.7);
+}
+header small{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.boton-rojo{
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.container-mi{
+	background-color:rgb(247, 78, 27);
+}
+hr .blanco{
+	border:1px solid white;
+	width: 40px;
+}
+/*servicios*/
+#servicios h3{
+	color: rgba(10, 2, 0, 0.75);
+}
+#servicios{
+	color: rgba(10, 2, 0, 0.75);
+}
+.container-icons{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#servicios .glyphicon{
+	font-size: 50px;
+	color:rgb(247, 78, 27);
+}
+/*trabajos */
+.negrito{
+	background: rgba(10, 2, 0, 0.75); 
+	padding-bottom: 30px;
+	padding-top: 30px;
+	color: white;
+}
+.negrito button{
+	border-radius: 20px;
+	color: rgba(10, 2, 0, 0.75);
+}
+/*contacto*/
